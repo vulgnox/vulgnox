@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/vulgnox">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=2ea043&fontSize=54&height=90&width=666&text=Hey%20there!%20I'm%20Nox" alt="Hey there! I&#39;m Nox" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=a371f7&fontSize=54&height=90&width=666&text=Hey%20there!%20I'm%20Nox" alt="Hey there! I'm Nox" />
   </a>
 </p>
 
@@ -12,7 +12,7 @@
 
 16-year-old developer passionate about building automation tools, local AI solutions, and exploring open-source software.
 
-🔭 &nbsp;I'm currently working on **Discord admin assistant and evagelion themed ricing on ubuntu**  
+🔭 &nbsp;I'm currently working on **Discord admin assistant and Evangelion themed ricing on Ubuntu**  
 🌱 &nbsp;I'm currently learning **LLM integrations, neural networks, and expanding my Python skills.**  
 👯 &nbsp;I'm looking to collaborate on **Open-source Python scripts, Discord bot development, or AI automation.**  
 💬 &nbsp;Ask me about **Python, building Discord bots, or setting up local developer environments.**  
@@ -53,14 +53,14 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=vulgnox&show_icons=true&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
-  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=vulgnox&layout=compact&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
+  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=vulgnox&show_icons=true&theme=tokyonight&title_color=a371f7&icon_color=a371f7&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
+  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=vulgnox&layout=compact&theme=tokyonight&title_color=a371f7&icon_color=a371f7&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
 </p>
 
 ### 📈 Contribution Graph
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=vulgnox&bg_color=00000000&color=2ea043&line=2ea043&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=vulgnox&bg_color=00000000&color=a371f7&line=a371f7&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
 </p>
 
 ### 💭 Dev Quote
