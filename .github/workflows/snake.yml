@@ -1,0 +1,30 @@
+name: generate snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
+  workflow_dispatch: {}
+  push:
+    branches: [ main ]
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: generate snake grid
+        uses: Platane/snk@v3
+        with:
+          github_user_name: vulgnox
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?color_snake=%238a1c1c&color_dots=%230d0d0b,%23232320,%2335322c,%235c584f,%23c9c4b8
+
+      - name: push output to "output" branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,80 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="voidGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0d0b"/>
+      <stop offset="100%" stop-color="#050504"/>
+    </linearGradient>
+
+    <radialGradient id="vignette" cx="50%" cy="42%" r="75%">
+      <stop offset="50%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.9"/>
+    </radialGradient>
+
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="transparent"/>
+      <rect width="4" height="1" fill="#3a362f" opacity="0.3"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="0 4" dur="0.5s" repeatCount="indefinite"/>
+    </pattern>
+
+    <filter id="noise" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.8  0 0 0 0 0.78  0 0 0 0 0.72  0 0 0 0.09 0"/>
+    </filter>
+
+    <clipPath id="typeClip">
+      <rect x="68" y="184" height="30" width="0">
+        <animate attributeName="width" values="0;0;470;470;470" keyTimes="0;0.08;0.42;0.92;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- base -->
+  <rect width="900" height="280" fill="url(#voidGrad)"/>
+  <rect width="900" height="280" fill="url(#scanlines)"/>
+
+  <!-- glitch-split title -->
+  <g font-family="'Courier New', Consolas, monospace" font-weight="700">
+    <text x="70" y="140" font-size="84" letter-spacing="8" fill="#8a1c1c" opacity="0.7">NOX
+      <animate attributeName="x" values="70;70;75;70;65;70;70" keyTimes="0;0.4;0.42;0.44;0.46;0.48;1" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <text x="70" y="140" font-size="84" letter-spacing="8" fill="#565f5a" opacity="0.55">NOX
+      <animate attributeName="x" values="70;70;65;70;75;70;70" keyTimes="0;0.4;0.42;0.44;0.46;0.48;1" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <text x="70" y="140" font-size="84" letter-spacing="8" fill="#cdc7ba">NOX</text>
+  </g>
+
+  <!-- brand glyph, top right, pulses like a scar reacting -->
+  <g transform="translate(786,48)" fill="none" stroke="#8a1c1c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 0 L16 24 L4 24 L28 56">
+      <animate attributeName="stroke" values="#7a1616;#7a1616;#c8403c;#7a1616;#7a1616" keyTimes="0;0.4;0.5;0.6;1" dur="3.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 0 L16 24 L4 24 L28 56" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.5;0;0" keyTimes="0;0.4;0.5;0.6;1" dur="3.4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 0;2 -1;0 0" keyTimes="0;0.4;0.5;1" dur="3.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- divider -->
+  <line x1="70" y1="166" x2="830" y2="166" stroke="#35322c" stroke-width="1"/>
+
+  <!-- typed line + cursor -->
+  <g font-family="'Courier New', Consolas, monospace" font-size="20" fill="#9a958a">
+    <g clip-path="url(#typeClip)">
+      <text x="68" y="205">&gt; tracing signal from Valdris...</text>
+    </g>
+    <rect y="186" width="10" height="22" fill="#9a958a">
+      <animate attributeName="x" values="68;68;536;536;536" keyTimes="0;0.08;0.42;0.92;1" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0;1;0;1;0;1" keyTimes="0;0.06;0.12;0.18;0.24;0.3;1" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- quote -->
+  <text x="70" y="245" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#5c584f">"no one severs the wire alone."</text>
+
+  <rect width="900" height="280" fill="url(#vignette)"/>
+
+  <!-- interference burst -->
+  <rect width="900" height="280" filter="url(#noise)" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.45;0.05;0" keyTimes="0;0.55;0.565;0.58;0.6" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>
