@@ -44,6 +44,8 @@ MODE      building
 
 <br>
 
+<p align="center"><img src="./assets/divider.svg" width="100%" alt="" /></p>
+
 ### :: SIGNAL LOG
 
 <table width="100%">
@@ -85,35 +87,19 @@ Built to make the desktop environment feel less like a theme and more like a sys
 
 <br>
 
+<p align="center"><img src="./assets/divider.svg" width="100%" alt="" /></p>
+
 ### :: STACK
 
 <p align="center">
-<img src="https://img.shields.io/badge/Python-35322C?style=flat-square&logo=python&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/SQL-35322C?style=flat-square&logo=mysql&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/HTML5-35322C?style=flat-square&logo=html5&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/React-35322C?style=flat-square&logo=react&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/Next.js-35322C?style=flat-square&logo=nextdotjs&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/Node.js-35322C?style=flat-square&logo=nodedotjs&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/Flask-35322C?style=flat-square&logo=flask&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/Discord.py-35322C?style=flat-square&logo=discord&logoColor=C9C4B8" />
-<br>
-<img src="https://img.shields.io/badge/PostgreSQL-35322C?style=flat-square&logo=postgresql&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/Supabase-35322C?style=flat-square&logo=supabase&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/MongoDB-35322C?style=flat-square&logo=mongodb&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/Firebase-35322C?style=flat-square&logo=firebase&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/SQLite-35322C?style=flat-square&logo=sqlite&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/Docker-35322C?style=flat-square&logo=docker&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/GitHub_Actions-35322C?style=flat-square&logo=githubactions&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/Vercel-35322C?style=flat-square&logo=vercel&logoColor=C9C4B8" />
-<br>
-<img src="https://img.shields.io/badge/Linux-35322C?style=flat-square&logo=linux&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/VS_Code-35322C?style=flat-square&logo=vscodium&logoColor=C9C4B8" />
-<img src="https://img.shields.io/badge/GitHub-35322C?style=flat-square&logo=github&logoColor=C9C4B8" />
+<img src="./assets/stack.svg" width="100%" alt="stack" />
 </p>
 
-<br>
+<p align="center"><img src="./assets/divider.svg" width="100%" alt="" /></p>
 
 ### :: TELEMETRY
+
+<sub>if these look empty, the shared instance is rate-limited — see the self-host note below</sub>
 
 <p align="center">
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=vulgnox&show_icons=true&theme=transparent&hide_border=false&border_color=35322C&title_color=C9C4B8&icon_color=8A1C1C&text_color=9A958A&bg_color=00000000" alt="stats" />
@@ -137,6 +123,8 @@ Built to make the desktop environment feel less like a theme and more like a sys
 
 <br>
 
+<p align="center"><img src="./assets/divider.svg" width="100%" alt="" /></p>
+
 ### :: FREQUENCIES
 
 <p align="center">
@@ -153,6 +141,4 @@ Built to make the desktop environment feel less like a theme and more like a sys
 
 <br>
 
-<div align="center">
-<sub>⌁ no one severs the wire alone — <a href="https://github.com/vulgnox">vulgnox</a> ⌁</sub>
-</div>
+<p align="center"><img src="./assets/footer.svg" width="100%" alt="transmission end" /></p>

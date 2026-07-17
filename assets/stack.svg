@@ -1,0 +1,71 @@
+<svg width="900" height="400" viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="voidGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0d0b"/>
+      <stop offset="100%" stop-color="#050504"/>
+    </linearGradient>
+    <pattern id="scanlines2" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="transparent"/>
+      <rect width="4" height="1" fill="#3a362f" opacity="0.22"/>
+    </pattern>
+    <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#201f1c" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="400" fill="url(#voidGrad2)"/>
+  <rect width="900" height="400" fill="url(#grid2)" opacity="0.6"/>
+  <rect width="900" height="400" fill="url(#scanlines2)"/>
+
+  <g stroke="#4a453c" stroke-width="2" fill="none">
+    <path d="M20 18 L20 40 M20 18 L42 18"/>
+    <path d="M880 18 L880 40 M880 18 L858 18"/>
+    <path d="M20 382 L20 360 M20 382 L42 382"/>
+    <path d="M880 382 L880 360 M880 382 L858 382"/>
+  </g>
+
+  <text x="50" y="52" font-family="'Courier New', Consolas, monospace" font-size="26" font-weight="700" letter-spacing="4" fill="#d8d2c4">STACK.SYS</text>
+  <text x="850" y="52" font-family="'Courier New', Consolas, monospace" font-size="12" letter-spacing="2" fill="#4a453c" text-anchor="end">05 CHANNELS</text>
+  <line x1="50" y1="66" x2="850" y2="66" stroke="#3a362f" stroke-width="1"/>
+
+  <!-- rows -->
+  <g font-family="'Courier New', Consolas, monospace">
+    <!-- row 1 -->
+    <circle cx="60" cy="106" r="5" fill="#8a1c1c">
+      <animate attributeName="opacity" values="0.4;1;0.4" keyTimes="0;0.5;1" dur="3s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <text x="82" y="112" font-size="16" font-weight="700" letter-spacing="2" fill="#a83030">LANG</text>
+    <text x="230" y="112" font-size="16" fill="#c9c4b8">Python · SQL · HTML5 · JavaScript</text>
+
+    <!-- row 2 -->
+    <circle cx="60" cy="158" r="5" fill="#8a1c1c">
+      <animate attributeName="opacity" values="0.4;1;0.4" keyTimes="0;0.5;1" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="82" y="164" font-size="16" font-weight="700" letter-spacing="2" fill="#a83030">FRAMEWORK</text>
+    <text x="230" y="164" font-size="16" fill="#c9c4b8">React · Next.js · Flask · Discord.py</text>
+
+    <!-- row 3 -->
+    <circle cx="60" cy="210" r="5" fill="#8a1c1c">
+      <animate attributeName="opacity" values="0.4;1;0.4" keyTimes="0;0.5;1" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <text x="82" y="216" font-size="16" font-weight="700" letter-spacing="2" fill="#a83030">DATA</text>
+    <text x="230" y="216" font-size="16" fill="#c9c4b8">PostgreSQL · Supabase · MongoDB · Firebase · SQLite</text>
+
+    <!-- row 4 -->
+    <circle cx="60" cy="262" r="5" fill="#8a1c1c">
+      <animate attributeName="opacity" values="0.4;1;0.4" keyTimes="0;0.5;1" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="82" y="268" font-size="16" font-weight="700" letter-spacing="2" fill="#a83030">INFRA</text>
+    <text x="230" y="268" font-size="16" fill="#c9c4b8">Docker · GitHub Actions · Vercel · Linux</text>
+
+    <!-- row 5 -->
+    <circle cx="60" cy="314" r="5" fill="#8a1c1c">
+      <animate attributeName="opacity" values="0.4;1;0.4" keyTimes="0;0.5;1" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="82" y="320" font-size="16" font-weight="700" letter-spacing="2" fill="#a83030">TOOLING</text>
+    <text x="230" y="320" font-size="16" fill="#c9c4b8">VS Code · GitHub</text>
+  </g>
+
+  <line x1="50" y1="348" x2="850" y2="348" stroke="#3a362f" stroke-width="1"/>
+  <text x="50" y="372" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="14" fill="#5c584f">five channels, one signal.</text>
+</svg>
