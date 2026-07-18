@@ -46,6 +46,16 @@ MODE      building
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt="" /></p>
 
+### :: COMPANION
+
+<p align="center">
+<img src="./assets/companion.svg" width="420" alt="ascii fox companion" />
+</p>
+
+<p align="center"><sub>a stand-in for the thing OpenHuman is supposed to become — ambient, always idling, technically alive</sub></p>
+
+<p align="center"><img src="./assets/divider.svg" width="100%" alt="" /></p>
+
 ### :: SIGNAL LOG
 
 <table width="100%">

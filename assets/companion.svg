@@ -1,0 +1,680 @@
+<svg width="535" height="846" viewBox="0 0 535 846" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="voidGradF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0d0b"/>
+      <stop offset="100%" stop-color="#040403"/>
+    </linearGradient>
+    <pattern id="scanlinesF" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="transparent"/>
+      <rect width="4" height="1" fill="#3a362f" opacity="0.22"/>
+    </pattern>
+    <pattern id="gridF" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#1c1b18" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="vignetteF" cx="50%" cy="45%" r="75%">
+      <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
+    </radialGradient>
+    <filter id="noiseF" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.8  0 0 0 0 0.78  0 0 0 0 0.72  0 0 0 0.08 0"/>
+    </filter>
+  </defs>
+
+  <rect width="535" height="846" fill="url(#voidGradF)"/>
+  <rect width="535" height="846" fill="url(#gridF)" opacity="0.5"/>
+  <rect width="535" height="846" fill="url(#scanlinesF)"/>
+
+  <g stroke="#4a453c" stroke-width="2" fill="none">
+    <path d="M18 16 L18 38 M18 16 L40 16"/>
+    <path d="M517 16 L517 38 M517 16 L495 16"/>
+    <path d="M18 830 L18 808 M18 830 L40 830"/>
+    <path d="M517 830 L517 808 M517 830 L495 830"/>
+  </g>
+
+  <text x="40" y="52" font-family="'Courier New', Consolas, monospace" font-size="24" font-weight="700" letter-spacing="3" fill="#d8d2c4">COMPANION.SYS</text>
+  <text x="495" y="52" font-family="'Courier New', Consolas, monospace" font-size="11" letter-spacing="2" fill="#4a453c" text-anchor="end">UNIT: VULP-01</text>
+  <line x1="40" y1="66" x2="495" y2="66" stroke="#3a362f" stroke-width="1"/>
+  <text x="40" y="92" font-family="'Courier New', Consolas, monospace" font-size="14" fill="#7c766a">&gt; ambient signal detected... rendering companion</text>
+
+  <g id="rig">
+    <g font-family="'Courier New', Consolas, monospace" font-size="11" fill="#a8a398" xml:space="preserve">
+      <tspan x="40" y="130.0"> </tspan>
+<tspan x="40" y="143.2"> </tspan>
+<tspan x="40" y="156.4"> </tspan>
+<tspan x="40" y="169.6"> </tspan>
+<tspan x="40" y="182.8"> </tspan>
+<tspan x="40" y="196.0"> </tspan>
+<tspan x="40" y="209.2">                    %%%                                              </tspan>
+<tspan x="40" y="222.4">                    ?{)                                              </tspan>
+<tspan x="40" y="235.6">                    &gt;&gt;&gt;                                              </tspan>
+<tspan x="40" y="248.8">                    &gt;&gt;&gt;                                              </tspan>
+<tspan x="40" y="262.0">                    &gt;&gt;&gt;                                              </tspan>
+<tspan x="40" y="275.2">    &amp;t))+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;\xxxxxxxxx                                </tspan>
+<tspan x="40" y="288.4">   %/)))\\|1?+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;fxxnuuuvxx                                </tspan>
+<tspan x="40" y="301.6">   v)))))_&lt;_})|&lt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&lt;|xuunnxxxxx                                </tspan>
+<tspan x="40" y="314.8">  #)))))}-?r}*aQ{iiiiiii&gt;1\J)o&amp;hc((rx                                </tspan>
+<tspan x="40" y="328.0">  o)))))}I)%@@@@XIIIIIIIII?8@@@@QI_xx                                </tspan>
+<tspan x="40" y="341.2">  %))))))&lt;I&gt;)t\_IIIIIIIIIIIi)t/-Ilfxx                                </tspan>
+<tspan x="40" y="354.4">   u))))){lIIIIIIIIIIIIIIIIIIIIII}xxx                                </tspan>
+<tspan x="40" y="367.6">   8\)))))+IIIIIIIIIIIIIIIIIIIII!rxxx                                </tspan>
+<tspan x="40" y="380.8">    $/))))1!IIIIIIIIIIIIIIIIIIII)xxxx                                </tspan>
+<tspan x="40" y="394.0">     #c))))-IIIII&lt;-{)((1}+lIIII&lt;xxxxx                                </tspan>
+<tspan x="40" y="407.2">       ou)))iIII1ttx0wmYtt/&gt;III/xxxxv                                </tspan>
+<tspan x="40" y="420.4">         8Qr{~iI~(tm@@@%x\}li+1xxxcw@                                </tspan>
+<tspan x="40" y="433.6">            #bJv/}+_1|(-_-(uQQQOh8                                   </tspan>
+<tspan x="40" y="446.8">                  @%&amp;*$8#                                            </tspan>
+<tspan x="40" y="460.0"> </tspan>
+<tspan x="40" y="473.2"> </tspan>
+<tspan x="40" y="486.4"> </tspan>
+<tspan x="40" y="499.6"> </tspan>
+<tspan x="40" y="512.8">              #omLYcnrjffjrucY0booo$#                                </tspan>
+<tspan x="40" y="526.0">          &amp;Zzf||||||||||||/frnnnnnnnn                                </tspan>
+<tspan x="40" y="539.2">       8Lj||||||||||||||trnnnnnnnnnnn                                </tspan>
+<tspan x="40" y="552.4">     *v\||||||||||||||\rnnnnnnnnnnnnnnnnnnuZ@                        </tspan>
+<tspan x="40" y="565.6">   %z||||||||||||||||/xnnnnnnnnnnnnnnnnnnnnnU@                       </tspan>
+<tspan x="40" y="578.8">  *f|||||||||||{_~&gt;!!i&lt;+}|rnnnnnnnnnnnnnnnnnnU@                      </tspan>
+<tspan x="40" y="592.0"> $/|||||||||1~lIIIIIIIIIIII+|nnnnnnnnnnnnnnnnnw                      </tspan>
+<tspan x="40" y="605.2"> r||||||||(~IIIIIIIIIIIIIIIII&lt;fnnnnnnnnnnnnnnnv@                     </tspan>
+<tspan x="40" y="618.4">a||||||||)!IIIIIIIIIIIIIIIIIIIl\nnnnnnnnnnnnnnn&amp;                     </tspan>
+<tspan x="40" y="631.6">O||||||||!IIIIIIIIIIIIIIIIIIIIIlfnnnnnnnnnnnnnno                     </tspan>
+<tspan x="40" y="644.8">b|||||||?IIIIIIIIIIIIIIIIIIIIIII-nnnnnnnnnnnnnn$                     </tspan>
+<tspan x="40" y="658.0">@f||||||~IIIIIIIIIIIIIIIIIIIIIIIinnnnnnnnnnnnnu@                     </tspan>
+<tspan x="40" y="671.2"> h\|||||+IIIIIIIIIIIIIIIIIIIIIII&lt;nnnnnnnnnnnnnZ                      </tspan>
+<tspan x="40" y="684.4">  w\||||{IIIIIIIIIIIIIIIIIIIIIII1nnnnnnnnnnnnz@                      </tspan>
+<tspan x="40" y="697.6">   $x||||~IIIIIIIIIIIIIIIIIIIII&lt;xnnnnnnnnnnnz%                       </tspan>
+<tspan x="40" y="710.8">    @mj||(}{{_!IIIIIIIi-{{?&gt;II~rnnnnnnnnnnnJ#                        </tspan>
+<tspan x="40" y="724.0">       hj)/jf({IIIIII!)\ff\)~)nnnnnnnnnnnXo                          </tspan>
+<tspan x="40" y="737.2">        wa****0&gt;IIIII_m****bvnnnnnnnnnc0$                            </tspan>
+<tspan x="40" y="750.4">        @&amp;***$8mYx\1?{Qa**amuuYOmmwh*#                               </tspan>
+<tspan x="40" y="763.6">                      @@@                                            </tspan>
+    </g>
+
+    <g font-family="'Courier New', Consolas, monospace" font-size="11" fill="#a8a398" xml:space="preserve">
+      <g transform-origin="300.7px 539.2px">
+        <animateTransform attributeName="transform" type="rotate"
+          values="0 300.7 539.2;
+                  -3 300.7 539.2;
+                  4 300.7 539.2;
+                  -2 300.7 539.2;
+                  0 300.7 539.2"
+          keyTimes="0;0.25;0.55;0.8;1" dur="3.2s" repeatCount="indefinite"/>
+        <tspan x="439.3" y="222.4">$</tspan>
+    <tspan x="445.9" y="222.4">L</tspan>
+    <tspan x="452.5" y="222.4">*</tspan>
+    <tspan x="445.9" y="235.6">{</tspan>
+    <tspan x="452.5" y="235.6">;</tspan>
+    <tspan x="459.1" y="235.6">l</tspan>
+    <tspan x="465.7" y="235.6">{</tspan>
+    <tspan x="472.3" y="235.6">r</tspan>
+    <tspan x="478.9" y="235.6">*</tspan>
+    <tspan x="445.9" y="248.8">$</tspan>
+    <tspan x="452.5" y="248.8">l</tspan>
+    <tspan x="459.1" y="248.8">;</tspan>
+    <tspan x="465.7" y="248.8">;</tspan>
+    <tspan x="472.3" y="248.8">;</tspan>
+    <tspan x="478.9" y="248.8">-</tspan>
+    <tspan x="485.5" y="248.8">@</tspan>
+    <tspan x="452.5" y="262.0">z</tspan>
+    <tspan x="459.1" y="262.0">;</tspan>
+    <tspan x="465.7" y="262.0">;</tspan>
+    <tspan x="472.3" y="262.0">;</tspan>
+    <tspan x="478.9" y="262.0">;</tspan>
+    <tspan x="485.5" y="262.0">u</tspan>
+    <tspan x="287.5" y="275.2">x</tspan>
+    <tspan x="294.1" y="275.2">x</tspan>
+    <tspan x="300.7" y="275.2">*</tspan>
+    <tspan x="445.9" y="275.2">@</tspan>
+    <tspan x="452.5" y="275.2">?</tspan>
+    <tspan x="459.1" y="275.2">;</tspan>
+    <tspan x="465.7" y="275.2">;</tspan>
+    <tspan x="472.3" y="275.2">;</tspan>
+    <tspan x="478.9" y="275.2">I</tspan>
+    <tspan x="485.5" y="275.2">l</tspan>
+    <tspan x="492.1" y="275.2">a</tspan>
+    <tspan x="287.5" y="288.4">x</tspan>
+    <tspan x="294.1" y="288.4">x</tspan>
+    <tspan x="300.7" y="288.4">c</tspan>
+    <tspan x="307.3" y="288.4">@</tspan>
+    <tspan x="445.9" y="288.4">|</tspan>
+    <tspan x="452.5" y="288.4">;</tspan>
+    <tspan x="459.1" y="288.4">;</tspan>
+    <tspan x="465.7" y="288.4">~</tspan>
+    <tspan x="472.3" y="288.4">(</tspan>
+    <tspan x="478.9" y="288.4">t</tspan>
+    <tspan x="485.5" y="288.4">t</tspan>
+    <tspan x="492.1" y="288.4">&amp;</tspan>
+    <tspan x="287.5" y="301.6">x</tspan>
+    <tspan x="294.1" y="301.6">x</tspan>
+    <tspan x="300.7" y="301.6">x</tspan>
+    <tspan x="307.3" y="301.6">a</tspan>
+    <tspan x="439.3" y="301.6">n</tspan>
+    <tspan x="445.9" y="301.6">l</tspan>
+    <tspan x="452.5" y="301.6">?</tspan>
+    <tspan x="459.1" y="301.6">\</tspan>
+    <tspan x="465.7" y="301.6">t</tspan>
+    <tspan x="472.3" y="301.6">t</tspan>
+    <tspan x="478.9" y="301.6">t</tspan>
+    <tspan x="485.5" y="301.6">c</tspan>
+    <tspan x="287.5" y="314.8">x</tspan>
+    <tspan x="294.1" y="314.8">x</tspan>
+    <tspan x="300.7" y="314.8">x</tspan>
+    <tspan x="307.3" y="314.8">0</tspan>
+    <tspan x="419.5" y="314.8">8</tspan>
+    <tspan x="426.1" y="314.8">O</tspan>
+    <tspan x="432.7" y="314.8">Q</tspan>
+    <tspan x="439.3" y="314.8">1</tspan>
+    <tspan x="445.9" y="314.8">t</tspan>
+    <tspan x="452.5" y="314.8">t</tspan>
+    <tspan x="459.1" y="314.8">t</tspan>
+    <tspan x="465.7" y="314.8">t</tspan>
+    <tspan x="472.3" y="314.8">t</tspan>
+    <tspan x="478.9" y="314.8">t</tspan>
+    <tspan x="485.5" y="314.8">a</tspan>
+    <tspan x="287.5" y="328.0">x</tspan>
+    <tspan x="294.1" y="328.0">x</tspan>
+    <tspan x="300.7" y="328.0">x</tspan>
+    <tspan x="307.3" y="328.0">J</tspan>
+    <tspan x="406.3" y="328.0">@</tspan>
+    <tspan x="412.9" y="328.0">w</tspan>
+    <tspan x="419.5" y="328.0">z</tspan>
+    <tspan x="426.1" y="328.0">z</tspan>
+    <tspan x="432.7" y="328.0">v</tspan>
+    <tspan x="439.3" y="328.0">j</tspan>
+    <tspan x="445.9" y="328.0">t</tspan>
+    <tspan x="452.5" y="328.0">t</tspan>
+    <tspan x="459.1" y="328.0">t</tspan>
+    <tspan x="465.7" y="328.0">t</tspan>
+    <tspan x="472.3" y="328.0">t</tspan>
+    <tspan x="478.9" y="328.0">n</tspan>
+    <tspan x="287.5" y="341.2">x</tspan>
+    <tspan x="294.1" y="341.2">x</tspan>
+    <tspan x="300.7" y="341.2">x</tspan>
+    <tspan x="307.3" y="341.2">0</tspan>
+    <tspan x="399.7" y="341.2">8</tspan>
+    <tspan x="406.3" y="341.2">J</tspan>
+    <tspan x="412.9" y="341.2">z</tspan>
+    <tspan x="419.5" y="341.2">z</tspan>
+    <tspan x="426.1" y="341.2">n</tspan>
+    <tspan x="432.7" y="341.2">t</tspan>
+    <tspan x="439.3" y="341.2">t</tspan>
+    <tspan x="445.9" y="341.2">t</tspan>
+    <tspan x="452.5" y="341.2">t</tspan>
+    <tspan x="459.1" y="341.2">t</tspan>
+    <tspan x="465.7" y="341.2">t</tspan>
+    <tspan x="472.3" y="341.2">t</tspan>
+    <tspan x="478.9" y="341.2">w</tspan>
+    <tspan x="287.5" y="354.4">x</tspan>
+    <tspan x="294.1" y="354.4">x</tspan>
+    <tspan x="300.7" y="354.4">x</tspan>
+    <tspan x="307.3" y="354.4">a</tspan>
+    <tspan x="386.5" y="354.4">@</tspan>
+    <tspan x="393.1" y="354.4">w</tspan>
+    <tspan x="399.7" y="354.4">z</tspan>
+    <tspan x="406.3" y="354.4">z</tspan>
+    <tspan x="412.9" y="354.4">v</tspan>
+    <tspan x="419.5" y="354.4">j</tspan>
+    <tspan x="426.1" y="354.4">t</tspan>
+    <tspan x="432.7" y="354.4">t</tspan>
+    <tspan x="439.3" y="354.4">t</tspan>
+    <tspan x="445.9" y="354.4">t</tspan>
+    <tspan x="452.5" y="354.4">t</tspan>
+    <tspan x="459.1" y="354.4">t</tspan>
+    <tspan x="465.7" y="354.4">t</tspan>
+    <tspan x="472.3" y="354.4">L</tspan>
+    <tspan x="287.5" y="367.6">x</tspan>
+    <tspan x="294.1" y="367.6">x</tspan>
+    <tspan x="300.7" y="367.6">v</tspan>
+    <tspan x="307.3" y="367.6">@</tspan>
+    <tspan x="379.9" y="367.6">8</tspan>
+    <tspan x="386.5" y="367.6">J</tspan>
+    <tspan x="393.1" y="367.6">z</tspan>
+    <tspan x="399.7" y="367.6">z</tspan>
+    <tspan x="406.3" y="367.6">n</tspan>
+    <tspan x="412.9" y="367.6">t</tspan>
+    <tspan x="419.5" y="367.6">t</tspan>
+    <tspan x="426.1" y="367.6">t</tspan>
+    <tspan x="432.7" y="367.6">t</tspan>
+    <tspan x="439.3" y="367.6">t</tspan>
+    <tspan x="445.9" y="367.6">t</tspan>
+    <tspan x="452.5" y="367.6">t</tspan>
+    <tspan x="459.1" y="367.6">t</tspan>
+    <tspan x="465.7" y="367.6">O</tspan>
+    <tspan x="287.5" y="380.8">x</tspan>
+    <tspan x="294.1" y="380.8">x</tspan>
+    <tspan x="300.7" y="380.8">o</tspan>
+    <tspan x="366.7" y="380.8">#</tspan>
+    <tspan x="373.3" y="380.8">Z</tspan>
+    <tspan x="379.9" y="380.8">z</tspan>
+    <tspan x="386.5" y="380.8">z</tspan>
+    <tspan x="393.1" y="380.8">v</tspan>
+    <tspan x="399.7" y="380.8">j</tspan>
+    <tspan x="406.3" y="380.8">t</tspan>
+    <tspan x="412.9" y="380.8">t</tspan>
+    <tspan x="419.5" y="380.8">t</tspan>
+    <tspan x="426.1" y="380.8">t</tspan>
+    <tspan x="432.7" y="380.8">t</tspan>
+    <tspan x="439.3" y="380.8">t</tspan>
+    <tspan x="445.9" y="380.8">t</tspan>
+    <tspan x="452.5" y="380.8">f</tspan>
+    <tspan x="459.1" y="380.8">b</tspan>
+    <tspan x="287.5" y="394.0">x</tspan>
+    <tspan x="294.1" y="394.0">b</tspan>
+    <tspan x="353.5" y="394.0">@</tspan>
+    <tspan x="360.1" y="394.0">b</tspan>
+    <tspan x="366.7" y="394.0">X</tspan>
+    <tspan x="373.3" y="394.0">z</tspan>
+    <tspan x="379.9" y="394.0">c</tspan>
+    <tspan x="386.5" y="394.0">x</tspan>
+    <tspan x="393.1" y="394.0">t</tspan>
+    <tspan x="399.7" y="394.0">t</tspan>
+    <tspan x="406.3" y="394.0">t</tspan>
+    <tspan x="412.9" y="394.0">t</tspan>
+    <tspan x="419.5" y="394.0">t</tspan>
+    <tspan x="426.1" y="394.0">t</tspan>
+    <tspan x="432.7" y="394.0">t</tspan>
+    <tspan x="439.3" y="394.0">t</tspan>
+    <tspan x="445.9" y="394.0">f</tspan>
+    <tspan x="452.5" y="394.0">a</tspan>
+    <tspan x="287.5" y="407.2">*</tspan>
+    <tspan x="346.9" y="407.2">o</tspan>
+    <tspan x="353.5" y="407.2">U</tspan>
+    <tspan x="360.1" y="407.2">z</tspan>
+    <tspan x="366.7" y="407.2">z</tspan>
+    <tspan x="373.3" y="407.2">n</tspan>
+    <tspan x="379.9" y="407.2">f</tspan>
+    <tspan x="386.5" y="407.2">t</tspan>
+    <tspan x="393.1" y="407.2">t</tspan>
+    <tspan x="399.7" y="407.2">t</tspan>
+    <tspan x="406.3" y="407.2">t</tspan>
+    <tspan x="412.9" y="407.2">t</tspan>
+    <tspan x="419.5" y="407.2">t</tspan>
+    <tspan x="426.1" y="407.2">t</tspan>
+    <tspan x="432.7" y="407.2">t</tspan>
+    <tspan x="439.3" y="407.2">r</tspan>
+    <tspan x="445.9" y="407.2">$</tspan>
+    <tspan x="333.7" y="420.4">8</tspan>
+    <tspan x="340.3" y="420.4">L</tspan>
+    <tspan x="346.9" y="420.4">z</tspan>
+    <tspan x="353.5" y="420.4">z</tspan>
+    <tspan x="360.1" y="420.4">u</tspan>
+    <tspan x="366.7" y="420.4">f</tspan>
+    <tspan x="373.3" y="420.4">t</tspan>
+    <tspan x="379.9" y="420.4">t</tspan>
+    <tspan x="386.5" y="420.4">t</tspan>
+    <tspan x="393.1" y="420.4">t</tspan>
+    <tspan x="399.7" y="420.4">t</tspan>
+    <tspan x="406.3" y="420.4">t</tspan>
+    <tspan x="412.9" y="420.4">t</tspan>
+    <tspan x="419.5" y="420.4">t</tspan>
+    <tspan x="426.1" y="420.4">j</tspan>
+    <tspan x="432.7" y="420.4">0</tspan>
+    <tspan x="439.3" y="420.4">@</tspan>
+    <tspan x="333.7" y="433.6">h</tspan>
+    <tspan x="340.3" y="433.6">v</tspan>
+    <tspan x="346.9" y="433.6">v</tspan>
+    <tspan x="353.5" y="433.6">r</tspan>
+    <tspan x="360.1" y="433.6">t</tspan>
+    <tspan x="366.7" y="433.6">t</tspan>
+    <tspan x="373.3" y="433.6">t</tspan>
+    <tspan x="379.9" y="433.6">t</tspan>
+    <tspan x="386.5" y="433.6">t</tspan>
+    <tspan x="393.1" y="433.6">t</tspan>
+    <tspan x="399.7" y="433.6">t</tspan>
+    <tspan x="406.3" y="433.6">t</tspan>
+    <tspan x="412.9" y="433.6">j</tspan>
+    <tspan x="419.5" y="433.6">0</tspan>
+    <tspan x="426.1" y="433.6">@</tspan>
+    <tspan x="327.1" y="446.8">*</tspan>
+    <tspan x="333.7" y="446.8">r</tspan>
+    <tspan x="340.3" y="446.8">t</tspan>
+    <tspan x="346.9" y="446.8">t</tspan>
+    <tspan x="353.5" y="446.8">t</tspan>
+    <tspan x="360.1" y="446.8">t</tspan>
+    <tspan x="366.7" y="446.8">t</tspan>
+    <tspan x="373.3" y="446.8">t</tspan>
+    <tspan x="379.9" y="446.8">t</tspan>
+    <tspan x="386.5" y="446.8">t</tspan>
+    <tspan x="393.1" y="446.8">t</tspan>
+    <tspan x="399.7" y="446.8">j</tspan>
+    <tspan x="406.3" y="446.8">0</tspan>
+    <tspan x="412.9" y="446.8">@</tspan>
+    <tspan x="320.5" y="460.0">m</tspan>
+    <tspan x="327.1" y="460.0">f</tspan>
+    <tspan x="333.7" y="460.0">t</tspan>
+    <tspan x="340.3" y="460.0">t</tspan>
+    <tspan x="346.9" y="460.0">t</tspan>
+    <tspan x="353.5" y="460.0">t</tspan>
+    <tspan x="360.1" y="460.0">t</tspan>
+    <tspan x="366.7" y="460.0">t</tspan>
+    <tspan x="373.3" y="460.0">t</tspan>
+    <tspan x="379.9" y="460.0">t</tspan>
+    <tspan x="386.5" y="460.0">j</tspan>
+    <tspan x="393.1" y="460.0">0</tspan>
+    <tspan x="399.7" y="460.0">@</tspan>
+    <tspan x="307.3" y="473.2">@</tspan>
+    <tspan x="313.9" y="473.2">J</tspan>
+    <tspan x="320.5" y="473.2">t</tspan>
+    <tspan x="327.1" y="473.2">t</tspan>
+    <tspan x="333.7" y="473.2">t</tspan>
+    <tspan x="340.3" y="473.2">t</tspan>
+    <tspan x="346.9" y="473.2">t</tspan>
+    <tspan x="353.5" y="473.2">t</tspan>
+    <tspan x="360.1" y="473.2">t</tspan>
+    <tspan x="366.7" y="473.2">f</tspan>
+    <tspan x="373.3" y="473.2">X</tspan>
+    <tspan x="379.9" y="473.2">h</tspan>
+    <tspan x="386.5" y="473.2">@</tspan>
+    <tspan x="300.7" y="486.4">%</tspan>
+    <tspan x="307.3" y="486.4">v</tspan>
+    <tspan x="313.9" y="486.4">t</tspan>
+    <tspan x="320.5" y="486.4">t</tspan>
+    <tspan x="327.1" y="486.4">t</tspan>
+    <tspan x="333.7" y="486.4">t</tspan>
+    <tspan x="340.3" y="486.4">t</tspan>
+    <tspan x="346.9" y="486.4">t</tspan>
+    <tspan x="353.5" y="486.4">u</tspan>
+    <tspan x="360.1" y="486.4">Z</tspan>
+    <tspan x="366.7" y="486.4">#</tspan>
+    <tspan x="294.1" y="499.6">@</tspan>
+    <tspan x="300.7" y="499.6">n</tspan>
+    <tspan x="307.3" y="499.6">t</tspan>
+    <tspan x="313.9" y="499.6">t</tspan>
+    <tspan x="320.5" y="499.6">t</tspan>
+    <tspan x="327.1" y="499.6">t</tspan>
+    <tspan x="333.7" y="499.6">j</tspan>
+    <tspan x="340.3" y="499.6">L</tspan>
+    <tspan x="346.9" y="499.6">$</tspan>
+    <tspan x="294.1" y="512.8">Q</tspan>
+    <tspan x="300.7" y="512.8">t</tspan>
+    <tspan x="307.3" y="512.8">t</tspan>
+    <tspan x="313.9" y="512.8">j</tspan>
+    <tspan x="320.5" y="512.8">U</tspan>
+    <tspan x="327.1" y="512.8">a</tspan>
+    <tspan x="333.7" y="512.8">@</tspan>
+    <tspan x="287.5" y="526.0">v</tspan>
+    <tspan x="294.1" y="526.0">x</tspan>
+    <tspan x="300.7" y="526.0">x</tspan>
+    <tspan x="307.3" y="526.0">w</tspan>
+    <tspan x="313.9" y="526.0">@</tspan>
+    <tspan x="287.5" y="539.2">n</tspan>
+    <tspan x="294.1" y="539.2">n</tspan>
+    <tspan x="300.7" y="539.2">n</tspan>
+    <tspan x="307.3" y="539.2">u</tspan>
+    <tspan x="313.9" y="539.2">L</tspan>
+    <tspan x="320.5" y="539.2">8</tspan>
+      </g>
+    </g>
+
+    <g font-family="'Courier New', Consolas, monospace" font-size="11" fill="#a8a398" xml:space="preserve">
+      <g>
+        <animateTransform attributeName="transform" type="rotate"
+          values="0 112.6 262.0;
+                   0 112.6 262.0;
+                  -8 112.6 262.0;
+                   0 112.6 262.0;
+                   0 112.6 262.0"
+          keyTimes="0;0.55;0.6;0.65;1" dur="4.6s" repeatCount="indefinite"/>
+        <tspan x="96.1" y="130.0">Q</tspan>
+    <tspan x="102.7" y="130.0">@</tspan>
+    <tspan x="89.5" y="143.2">a</tspan>
+    <tspan x="96.1" y="143.2">|</tspan>
+    <tspan x="102.7" y="143.2">v</tspan>
+    <tspan x="109.3" y="143.2">@</tspan>
+    <tspan x="89.5" y="156.4">n</tspan>
+    <tspan x="96.1" y="156.4">|</tspan>
+    <tspan x="102.7" y="156.4">|</tspan>
+    <tspan x="109.3" y="156.4">u</tspan>
+    <tspan x="115.9" y="156.4">@</tspan>
+    <tspan x="82.9" y="169.6">a</tspan>
+    <tspan x="89.5" y="169.6">|</tspan>
+    <tspan x="96.1" y="169.6">|</tspan>
+    <tspan x="102.7" y="169.6">L</tspan>
+    <tspan x="109.3" y="169.6">f</tspan>
+    <tspan x="115.9" y="169.6">n</tspan>
+    <tspan x="122.5" y="169.6">#</tspan>
+    <tspan x="82.9" y="182.8">n</tspan>
+    <tspan x="89.5" y="182.8">|</tspan>
+    <tspan x="96.1" y="182.8">r</tspan>
+    <tspan x="102.7" y="182.8">a</tspan>
+    <tspan x="109.3" y="182.8">m</tspan>
+    <tspan x="115.9" y="182.8">t</tspan>
+    <tspan x="122.5" y="182.8">x</tspan>
+    <tspan x="129.1" y="182.8">%</tspan>
+    <tspan x="76.3" y="196.0">a</tspan>
+    <tspan x="82.9" y="196.0">|</tspan>
+    <tspan x="89.5" y="196.0">|</tspan>
+    <tspan x="96.1" y="196.0">Q</tspan>
+    <tspan x="102.7" y="196.0">a</tspan>
+    <tspan x="109.3" y="196.0">a</tspan>
+    <tspan x="115.9" y="196.0">m</tspan>
+    <tspan x="122.5" y="196.0">t</tspan>
+    <tspan x="129.1" y="196.0">r</tspan>
+    <tspan x="135.7" y="196.0">8</tspan>
+    <tspan x="76.3" y="209.2">n</tspan>
+    <tspan x="82.9" y="209.2">|</tspan>
+    <tspan x="89.5" y="209.2">f</tspan>
+    <tspan x="96.1" y="209.2">h</tspan>
+    <tspan x="102.7" y="209.2">a</tspan>
+    <tspan x="109.3" y="209.2">a</tspan>
+    <tspan x="115.9" y="209.2">a</tspan>
+    <tspan x="122.5" y="209.2">Z</tspan>
+    <tspan x="129.1" y="209.2">/</tspan>
+    <tspan x="135.7" y="209.2">j</tspan>
+    <tspan x="142.3" y="209.2">8</tspan>
+    <tspan x="168.7" y="209.2">@</tspan>
+    <tspan x="69.7" y="222.4">a</tspan>
+    <tspan x="76.3" y="222.4">|</tspan>
+    <tspan x="82.9" y="222.4">|</tspan>
+    <tspan x="89.5" y="222.4">U</tspan>
+    <tspan x="96.1" y="222.4">a</tspan>
+    <tspan x="102.7" y="222.4">a</tspan>
+    <tspan x="109.3" y="222.4">a</tspan>
+    <tspan x="115.9" y="222.4">a</tspan>
+    <tspan x="122.5" y="222.4">a</tspan>
+    <tspan x="129.1" y="222.4">O</tspan>
+    <tspan x="135.7" y="222.4">/</tspan>
+    <tspan x="142.3" y="222.4">t</tspan>
+    <tspan x="148.9" y="222.4">f</tspan>
+    <tspan x="155.5" y="222.4">1</tspan>
+    <tspan x="162.1" y="222.4">-</tspan>
+    <tspan x="168.7" y="222.4">-</tspan>
+    <tspan x="69.7" y="235.6">n</tspan>
+    <tspan x="76.3" y="235.6">|</tspan>
+    <tspan x="82.9" y="235.6">/</tspan>
+    <tspan x="89.5" y="235.6">h</tspan>
+    <tspan x="96.1" y="235.6">a</tspan>
+    <tspan x="102.7" y="235.6">a</tspan>
+    <tspan x="109.3" y="235.6">a</tspan>
+    <tspan x="115.9" y="235.6">a</tspan>
+    <tspan x="122.5" y="235.6">a</tspan>
+    <tspan x="129.1" y="235.6">a</tspan>
+    <tspan x="135.7" y="235.6">O</tspan>
+    <tspan x="142.3" y="235.6">\</tspan>
+    <tspan x="148.9" y="235.6">|</tspan>
+    <tspan x="155.5" y="235.6">~</tspan>
+    <tspan x="162.1" y="235.6">&gt;</tspan>
+    <tspan x="168.7" y="235.6">&gt;</tspan>
+    <tspan x="63.1" y="248.8">a</tspan>
+    <tspan x="69.7" y="248.8">|</tspan>
+    <tspan x="76.3" y="248.8">|</tspan>
+    <tspan x="82.9" y="248.8">/</tspan>
+    <tspan x="89.5" y="248.8">r</tspan>
+    <tspan x="96.1" y="248.8">n</tspan>
+    <tspan x="102.7" y="248.8">v</tspan>
+    <tspan x="109.3" y="248.8">z</tspan>
+    <tspan x="115.9" y="248.8">U</tspan>
+    <tspan x="122.5" y="248.8">L</tspan>
+    <tspan x="129.1" y="248.8">0</tspan>
+    <tspan x="135.7" y="248.8">Z</tspan>
+    <tspan x="142.3" y="248.8">L</tspan>
+    <tspan x="148.9" y="248.8">\</tspan>
+    <tspan x="155.5" y="248.8">|</tspan>
+    <tspan x="162.1" y="248.8">+</tspan>
+    <tspan x="168.7" y="248.8">&gt;</tspan>
+    <tspan x="63.1" y="262.0">&amp;</tspan>
+    <tspan x="69.7" y="262.0">a</tspan>
+    <tspan x="76.3" y="262.0">m</tspan>
+    <tspan x="82.9" y="262.0">t</tspan>
+    <tspan x="89.5" y="262.0">(</tspan>
+    <tspan x="96.1" y="262.0">1</tspan>
+    <tspan x="102.7" y="262.0">?</tspan>
+    <tspan x="109.3" y="262.0">?</tspan>
+    <tspan x="115.9" y="262.0">}</tspan>
+    <tspan x="122.5" y="262.0">}</tspan>
+    <tspan x="129.1" y="262.0">{</tspan>
+    <tspan x="135.7" y="262.0">{</tspan>
+    <tspan x="142.3" y="262.0">{</tspan>
+    <tspan x="148.9" y="262.0">1</tspan>
+    <tspan x="155.5" y="262.0">1</tspan>
+    <tspan x="162.1" y="262.0">1</tspan>
+    <tspan x="168.7" y="262.0">&lt;</tspan>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate"
+          values="0 244.6 262.0;
+                   0 244.6 262.0;
+                   7 244.6 262.0;
+                   0 244.6 262.0;
+                   0 244.6 262.0"
+          keyTimes="0;0.68;0.73;0.78;1" dur="5.3s" repeatCount="indefinite"/>
+        <tspan x="267.7" y="130.0">h</tspan>
+    <tspan x="274.3" y="130.0">*</tspan>
+    <tspan x="261.1" y="143.2">b</tspan>
+    <tspan x="267.7" y="143.2">\</tspan>
+    <tspan x="274.3" y="143.2">v</tspan>
+    <tspan x="254.5" y="156.4">m</tspan>
+    <tspan x="261.1" y="156.4">\</tspan>
+    <tspan x="267.7" y="156.4">|</tspan>
+    <tspan x="274.3" y="156.4">|</tspan>
+    <tspan x="280.9" y="156.4">*</tspan>
+    <tspan x="247.9" y="169.6">Z</tspan>
+    <tspan x="254.5" y="169.6">\</tspan>
+    <tspan x="261.1" y="169.6">Y</tspan>
+    <tspan x="267.7" y="169.6">r</tspan>
+    <tspan x="274.3" y="169.6">|</tspan>
+    <tspan x="280.9" y="169.6">v</tspan>
+    <tspan x="241.3" y="182.8">0</tspan>
+    <tspan x="247.9" y="182.8">|</tspan>
+    <tspan x="254.5" y="182.8">Y</tspan>
+    <tspan x="261.1" y="182.8">a</tspan>
+    <tspan x="267.7" y="182.8">L</tspan>
+    <tspan x="274.3" y="182.8">|</tspan>
+    <tspan x="280.9" y="182.8">|</tspan>
+    <tspan x="287.5" y="182.8">*</tspan>
+    <tspan x="234.7" y="196.0">L</tspan>
+    <tspan x="241.3" y="196.0">|</tspan>
+    <tspan x="247.9" y="196.0">X</tspan>
+    <tspan x="254.5" y="196.0">a</tspan>
+    <tspan x="261.1" y="196.0">a</tspan>
+    <tspan x="267.7" y="196.0">h</tspan>
+    <tspan x="274.3" y="196.0">f</tspan>
+    <tspan x="280.9" y="196.0">|</tspan>
+    <tspan x="287.5" y="196.0">v</tspan>
+    <tspan x="195.1" y="209.2">#</tspan>
+    <tspan x="201.7" y="209.2">@</tspan>
+    <tspan x="228.1" y="209.2">U</tspan>
+    <tspan x="234.7" y="209.2">|</tspan>
+    <tspan x="241.3" y="209.2">z</tspan>
+    <tspan x="247.9" y="209.2">a</tspan>
+    <tspan x="254.5" y="209.2">a</tspan>
+    <tspan x="261.1" y="209.2">a</tspan>
+    <tspan x="267.7" y="209.2">a</tspan>
+    <tspan x="274.3" y="209.2">U</tspan>
+    <tspan x="280.9" y="209.2">|</tspan>
+    <tspan x="287.5" y="209.2">|</tspan>
+    <tspan x="294.1" y="209.2">*</tspan>
+    <tspan x="195.1" y="222.4">)</tspan>
+    <tspan x="201.7" y="222.4">)</tspan>
+    <tspan x="208.3" y="222.4">\</tspan>
+    <tspan x="214.9" y="222.4">j</tspan>
+    <tspan x="221.5" y="222.4">x</tspan>
+    <tspan x="228.1" y="222.4">|</tspan>
+    <tspan x="234.7" y="222.4">c</tspan>
+    <tspan x="241.3" y="222.4">a</tspan>
+    <tspan x="247.9" y="222.4">a</tspan>
+    <tspan x="254.5" y="222.4">a</tspan>
+    <tspan x="261.1" y="222.4">a</tspan>
+    <tspan x="267.7" y="222.4">a</tspan>
+    <tspan x="274.3" y="222.4">h</tspan>
+    <tspan x="280.9" y="222.4">/</tspan>
+    <tspan x="287.5" y="222.4">|</tspan>
+    <tspan x="294.1" y="222.4">v</tspan>
+    <tspan x="195.1" y="235.6">+</tspan>
+    <tspan x="201.7" y="235.6">{</tspan>
+    <tspan x="208.3" y="235.6">f</tspan>
+    <tspan x="214.9" y="235.6">t</tspan>
+    <tspan x="221.5" y="235.6">|</tspan>
+    <tspan x="228.1" y="235.6">v</tspan>
+    <tspan x="234.7" y="235.6">a</tspan>
+    <tspan x="241.3" y="235.6">a</tspan>
+    <tspan x="247.9" y="235.6">a</tspan>
+    <tspan x="254.5" y="235.6">a</tspan>
+    <tspan x="261.1" y="235.6">a</tspan>
+    <tspan x="267.7" y="235.6">a</tspan>
+    <tspan x="274.3" y="235.6">a</tspan>
+    <tspan x="280.9" y="235.6">X</tspan>
+    <tspan x="287.5" y="235.6">|</tspan>
+    <tspan x="294.1" y="235.6">|</tspan>
+    <tspan x="300.7" y="235.6">*</tspan>
+    <tspan x="195.1" y="248.8">&gt;</tspan>
+    <tspan x="201.7" y="248.8">&gt;</tspan>
+    <tspan x="208.3" y="248.8">)</tspan>
+    <tspan x="214.9" y="248.8">|</tspan>
+    <tspan x="221.5" y="248.8">n</tspan>
+    <tspan x="228.1" y="248.8">m</tspan>
+    <tspan x="234.7" y="248.8">O</tspan>
+    <tspan x="241.3" y="248.8">Q</tspan>
+    <tspan x="247.9" y="248.8">J</tspan>
+    <tspan x="254.5" y="248.8">Y</tspan>
+    <tspan x="261.1" y="248.8">c</tspan>
+    <tspan x="267.7" y="248.8">u</tspan>
+    <tspan x="274.3" y="248.8">x</tspan>
+    <tspan x="280.9" y="248.8">f</tspan>
+    <tspan x="287.5" y="248.8">|</tspan>
+    <tspan x="294.1" y="248.8">|</tspan>
+    <tspan x="300.7" y="248.8">v</tspan>
+    <tspan x="195.1" y="262.0">&gt;</tspan>
+    <tspan x="201.7" y="262.0">?</tspan>
+    <tspan x="208.3" y="262.0">1</tspan>
+    <tspan x="214.9" y="262.0">1</tspan>
+    <tspan x="221.5" y="262.0">/</tspan>
+    <tspan x="228.1" y="262.0">t</tspan>
+    <tspan x="234.7" y="262.0">t</tspan>
+    <tspan x="241.3" y="262.0">t</tspan>
+    <tspan x="247.9" y="262.0">t</tspan>
+    <tspan x="254.5" y="262.0">f</tspan>
+    <tspan x="261.1" y="262.0">f</tspan>
+    <tspan x="267.7" y="262.0">f</tspan>
+    <tspan x="274.3" y="262.0">f</tspan>
+    <tspan x="280.9" y="262.0">f</tspan>
+    <tspan x="287.5" y="262.0">j</tspan>
+    <tspan x="294.1" y="262.0">U</tspan>
+    <tspan x="300.7" y="262.0">a</tspan>
+      </g>
+    </g>
+
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 -2; 0 0; 0 1; 0 0" keyTimes="0;0.3;0.5;0.75;1"
+      dur="4s" repeatCount="indefinite"/>
+  </g>
+
+  <g id="eyes">
+    <circle cx="129.1" cy="324.0" r="3.6" fill="#c8403c">
+      <animate attributeName="ry" values="3.6;3.6;0.4;3.6;3.6" keyTimes="0;0.92;0.945;0.97;1" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#c8403c;#c8403c;#e8645c;#c8403c" keyTimes="0;0.4;0.5;1" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="234.7" cy="324.0" r="3.6" fill="#c8403c">
+      <animate attributeName="ry" values="3.6;3.6;0.4;3.6;3.6" keyTimes="0;0.92;0.945;0.97;1" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#c8403c;#c8403c;#e8645c;#c8403c" keyTimes="0;0.4;0.5;1" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="181.9" cy="416.4" r="2.6" fill="#7a1616"/>
+  </g>
+
+  <rect width="535" height="846" fill="url(#vignetteF)"/>
+  <rect width="535" height="846" filter="url(#noiseF)" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.4;0.05;0" keyTimes="0;0.6;0.615;0.63;0.64" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="40" y="816" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="14" fill="#5c584f">it doesn't sleep. it just idles.</text>
+</svg>
