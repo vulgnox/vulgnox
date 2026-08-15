@@ -91,7 +91,7 @@ Built to make the desktop environment feel less like a theme and more like a sys
 
 - **OpenHuman** — an ambient, always-on AI companion running in a Linux container. The long-term goal: a living, Jarvis-style system instead of a chatbot you open and close.
 - **Blood & Coin** — a Discord RPG set in the fictional city of Valdris. Duels, bounties, faction war, a full economy nobody sane would maintain by hand.
-- **Kode Nexus** — a team-built educational quiz platform, backend and grading logic handled end to end.
+- **NoxCode** — a team-built educational quiz platform, backend and grading logic handled end to end.
 
 </details>
 
