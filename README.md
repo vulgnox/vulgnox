@@ -16,10 +16,7 @@
 
 ### :: SIGNAL
 
-16. India. No formal team, no office — just a room, a terminal, and whatever's rendering at 3am.
-
-I build things that shouldn't quite work: ambient AI companions that live inside a container, a desktop environment modeled after a fictional supercomputer, a Discord bot with an economy nobody asked for. Most of it starts as a bit and doesn't stop until it's load-bearing.
-
+I specialize in building experimental software, custom developer environments, and ambient AI systems. My work focuses on taking ambitious, unconventional concepts—from local AI architectures to custom Linux desktop environments—and developing them into reliable, production-ready solutions.
 `currently online:` custom Linux desktop environments · Discord bot architecture · local/ambient AI tooling · web dev
 
 `currently studying:` LLM integration patterns, neural nets, deeper Python
@@ -43,16 +40,6 @@ MODE      building
 </table>
 
 <br>
-
-<p align="center"><img src="./assets/divider.svg" width="100%" alt="" /></p>
-
-### :: COMPANION
-
-<p align="center">
-<img src="./assets/companion.svg" width="420" alt="ascii fox companion" />
-</p>
-
-<p align="center"><sub>a stand-in for the thing OpenHuman is supposed to become — ambient, always idling, technically alive</sub></p>
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt="" /></p>
 
@@ -89,7 +76,6 @@ Built to make the desktop environment feel less like a theme and more like a sys
 <summary><b>:: OTHER TRANSMISSIONS</b></summary>
 <br>
 
-- **OpenHuman** — an ambient, always-on AI companion running in a Linux container. The long-term goal: a living, Jarvis-style system instead of a chatbot you open and close.
 - **Blood & Coin** — a Discord RPG set in the fictional city of Valdris. Duels, bounties, faction war, a full economy nobody sane would maintain by hand.
 - **NoxCode** — a team-built educational quiz platform, backend and grading logic handled end to end.
 
